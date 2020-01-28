@@ -11,8 +11,8 @@ namespace Contraband
 		static void Main(string[] args)
 		{
 			Random MainGenerator = new Random();
-			List<ContrabandCar> contraband = new List<ContrabandCar>();
-			List<CleanCar> Clean = new List<CleanCar>();
+			List<ContrabandCar> contraband = new List<ContrabandCar>(); //Gör en tom lista där alla ContrabandCars kommer att lagras
+			List<CleanCar> Clean = new List<CleanCar>(); //Tom lista där clean cars kommer att lagras
 			List<Car> Cars = new List<Car>(); //Gör en lista där alla instanser av bilarna lagras
 
 			int answer = 0; //Gör 1 int där spelarens parsade input lagras
